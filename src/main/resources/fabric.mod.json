@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "keepresourcepackonproxiedserverswitch",
+  "version": "${version}",
+
+  "name": "Keep ResourcePacks on proxied server switches",
+  "description": "Removes the need for the client two reload resources TWICE on every server switch with network-wide resource packs.",
+  "authors": [
+    "kennytv"
+  ],
+  "contact": {
+    "sources": "https://github.com/kennytv/keep-resource-pack-on-proxied-server-switch"
+  },
+
+  "license": "MIT",
+
+  "environment": "client",
+  "entrypoints": {
+  },
+  "mixins": [
+    "keepresourcepack.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.22",
+    "minecraft": ">1.20.1",
+    "java": ">=17"
+  },
+  "suggests": {
+  }
+}
